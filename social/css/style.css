@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Footer Styling */
+footer{
+    background-image: url('/img/ambulance.png');
+    background-color: #e7f5f5;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+/* Set the height of the footer links */
+footer div.footer-links{
+    height: 50px;
+}
+
+footer div{
+    text-align: center;
+    color: #666666;
+}
+
+footer div.copyright{
+    font-size: 14px;
+}
+
+/* Format the list container */
+ul{
+    list-style: none;
+    padding: 5px 0;
+}
+
+/* Format the list elements */
+ul li{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* Format the anchor elements within the lists */
+ul li a{
+    display: block;
+    padding: 5px;
+    border-radius: 100%;
+    color: #ffffff;
+    transition: all .1s ease-in-out;
+}
+
+
+/* Set dimension for social links*/
+ul li a i{
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+
+/* Social Links background color */
+ul li:first-child a{ background-color: #4267b2;}
+ul li:nth-child(2) a{ background-color: #1da1f2;}
+ul li:nth-child(3) a{ background-color: #0077b5;}
+ul li:last-child a{ background-color: #cb007c;}
+
+/* Social Links Hover Effects */
+ul li:first-child:hover a{ background-color: #3057a5; transform: scale(1.2); margin-bottom: 1px;}
+ul li:nth-child(2):hover a{ background-color: #0b91e4; transform: scale(1.2);margin-bottom: 1px;}
+ul li:nth-child(3):hover a{ background-color: #006aa2;transform: scale(1.2); margin-bottom: 1px;}
+ul li:last-child:hover a{ background-color: #a70066; transform: scale(1.2); margin-bottom: 1px;}
+
