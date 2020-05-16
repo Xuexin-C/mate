@@ -28,19 +28,19 @@ footer div.copyright{
 }
 
 /* Format the list container */
-ul{
+footer ul{
     list-style: none;
     padding: 5px 0;
 }
 
 /* Format the list elements */
-ul li{
+footer ul li{
     display: inline-block;
     padding-right: 5px;
 }
 
 /* Format the anchor elements within the lists */
-ul li a{
+footer ul li a{
     display: block;
     padding: 5px;
     border-radius: 100%;
@@ -50,21 +50,21 @@ ul li a{
 
 
 /* Set dimension for social links*/
-ul li a i{
+footer ul li a i{
     display: block;
     width: 20px;
     text-align: center;
 }
 
 /* Social Links background color */
-ul li:first-child a{ background-color: #4267b2;}
-ul li:nth-child(2) a{ background-color: #1da1f2;}
-ul li:nth-child(3) a{ background-color: #0077b5;}
-ul li:last-child a{ background-color: #cb007c;}
+footer ul li:first-child a{ background-color: #4267b2;}
+footer ul li:nth-child(2) a{ background-color: #1da1f2;}
+footer ul li:nth-child(3) a{ background-color: #0077b5;}
+footer ul li:last-child a{ background-color: #cb007c;}
 
 /* Social Links Hover Effects */
-ul li:first-child:hover a{ background-color: #3057a5; transform: scale(1.2); margin-bottom: 1px;}
-ul li:nth-child(2):hover a{ background-color: #0b91e4; transform: scale(1.2);margin-bottom: 1px;}
-ul li:nth-child(3):hover a{ background-color: #006aa2;transform: scale(1.2); margin-bottom: 1px;}
-ul li:last-child:hover a{ background-color: #a70066; transform: scale(1.2); margin-bottom: 1px;}
+footer ul li:first-child:hover a{ background-color: #3057a5; transform: scale(1.2); margin-bottom: 1px;}
+footer ul li:nth-child(2):hover a{ background-color: #0b91e4; transform: scale(1.2);margin-bottom: 1px;}
+footer ul li:nth-child(3):hover a{ background-color: #006aa2;transform: scale(1.2); margin-bottom: 1px;}
+footer ul li:last-child:hover a{ background-color: #a70066; transform: scale(1.2); margin-bottom: 1px;}
 
