@@ -1,0 +1,78 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+<title>Home page</title>
+
+
+<style>
+    .responsive {
+        width: 100%;
+        max-width: 4000px;
+        height: 350px;
+        object-fit: cover;
+    }
+</style>
+
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <div>
+                <script>
+                    function goBaseUrl() {
+                        var pathArray = window.location.pathname.split('/');
+                        console.log("pathArray[1]", pathArray[1]);
+                        var baseUrl = location.origin + '/' + pathArray[1].trim('/') + '/';
+                        console.log("baseUrl:", baseUrl)
+                        return baseUrl;
+                    }
+                    function goInformation() {
+                        var pathArray = window.location.pathname.split('/');
+                        console.log("pathArray[1]", pathArray[1]);
+                        var memeberUrl = goBaseUrl() + 'templates/mymate/html/Surgery-Information.html';
+                        console.log("memeberUrl:", memeberUrl)
+                        location.replace(memeberUrl);
+                    }
+                </script>
+            </div>
+            <h1 class="display-3">My Surgery Mate</h1>
+            <p>
+                Be in control of your surgery.
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button" onclick="goInformation()">Learn more »</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+                <div class="col-md-6">
+                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/home1.jpeg" alt="home1" class="responsive">
+                        <h2>About Us</h2>
+                        <p>My Surgery Mate provides a complete platform for patients of surgery. We aim to inform, educate, and monitor patients in all aspects surrounding surgical procedures. Our unified portal provides an elegant and accessible space with intentions of pioneering a new approach for patients, caretakers, and doctors.
+                        </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/home2.jpeg" alt="home2" class="responsive">
+                        <h2>Surgery Information</h2>
+                        <p>My Surgery Mate provides concise yet vital information about everything a patient or caretaker would want to know for their surgery and recovery. We’ve compiled the most important information available so you don’t have to. See what operations we have to offer.
+                        </p>
+                </div>
+                <div class="col-md-12">
+                    <h2>Membership</h2>
+                    <p>We take surgeries to the next level. Whether you’re a patient recovering from surgery or a doctor checking in on their subject, you’re going to want to be a part of this experience. Welcome to the future of surgical care.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <h2>Online Support</h2>
+                    <p>Some things just need a more personal touch. We’re open to suggestions and would love to hear from you. Don’t be shy.
+                    </p>
+                </div>
+        </div>
+        <hr>
+    </div> <!-- /container -->
+
+</main>
+
