@@ -5,7 +5,7 @@ body{
 
 /* Footer Styling */
 .mymatefooter {
-    background-image: url('/img/ambulance.png');
+    background-image: url('../images/ambulance.png');
     background-color: #e7f5f5;
     background-size: contain;
     background-position: right;
@@ -64,8 +64,8 @@ body{
 .last-child a{ background-color: #cb007c;}
 
 /* Social Links Hover Effects */
-ul li:first-child:hover a{ background-color: #3057a5; transform: scale(1.2); margin-bottom: 1px;}
-ul li:nth-child(2):hover a{ background-color: #0b91e4; transform: scale(1.2);margin-bottom: 1px;}
-ul li:nth-child(3):hover a{ background-color: #006aa2;transform: scale(1.2); margin-bottom: 1px;}
-ul li:last-child:hover a{ background-color: #a70066; transform: scale(1.2); margin-bottom: 1px;}
+footer ul li:first-child:hover a{ background-color: #3057a5; transform: scale(1.2); margin-bottom: 1px;}
+footer ul li:nth-child(2):hover a{ background-color: #0b91e4; transform: scale(1.2);margin-bottom: 1px;}
+footer ul li:nth-child(3):hover a{ background-color: #006aa2;transform: scale(1.2); margin-bottom: 1px;}
+footer ul li:last-child:hover a{ background-color: #a70066; transform: scale(1.2); margin-bottom: 1px;}
 
