@@ -38,7 +38,7 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-		<?php include 'html/Homepage.html';?>
+		<?php include 'html/mymate.html';?>
     </div>
   </div>
 
@@ -51,7 +51,7 @@
       <div class="col-md-4">
         <p>
         <a href="https://www.ottawahospital.on.ca/" target="_blank">
-            <img src="/Joomla/templates/mymate/images/The_Ottawa_Hospital_Logo.jpg" alt="Ottawa Hospital" class="responsive resizeimg center" style="width:150px;height:150px;">
+            <img src="templates/mymate/images/The_Ottawa_Hospital_Logo.jpg" alt="Ottawa Hospital" class="responsive resizeimg center" style="width:150px;height:150px;">
         </a>
         </p>
         <p><a class="btn btn-secondary" href="https://www.ottawahospital.on.ca/" role="button" target="_blank">Visit Ottawa Hospital &raquo;</a></p>
@@ -59,7 +59,7 @@
       <div class="col-md-4">
         <p>
         <a href="https://www.qch.on.ca/" target="_blank">
-            <img src="/Joomla/templates/mymate/images/Queensway-Carleton-Hospital-Logo.png" alt="Queensway Carleton Hospital" class="responsive resizeimg center" style="width:150px;height:150px;">
+            <img src="templates/mymate/images/Queensway-Carleton-Hospital-Logo.png" alt="Queensway Carleton Hospital" class="responsive resizeimg center" style="width:150px;height:150px;">
         </a>
         </p>
         <p><a class="btn btn-secondary" href="https://www.qch.on.ca/" role="button" target="_blank">Visit Queensway Hospital &raquo;</a></p>
