@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <title>MySurgeryMate Template · Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
@@ -26,7 +26,6 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/custom.css" rel="stylesheet">
-	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/jumbotron.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -39,26 +38,31 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-		<?php include 'html/Homepage.html';?>
+		<?php include 'html/mymate.html';?>
+    </div>
   </div>
 
   <div class="container">
     <!-- Example row of columns -->
+    <div class="container">
+        <h2>Our partnership</h2>
+    </div><br>
     <div class="row">
       <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p>
+        <a href="https://www.ottawahospital.on.ca/" target="_blank">
+            <img src="templates/mymate/images/The_Ottawa_Hospital_Logo.jpg" alt="Ottawa Hospital" class="responsive resizeimg center" style="width:150px;height:150px;">
+        </a>
+        </p>
+        <p><a class="btn btn-secondary" href="https://www.ottawahospital.on.ca/" role="button" target="_blank">Visit Ottawa Hospital &raquo;</a></p>
       </div>
       <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p>
+        <a href="https://www.qch.on.ca/" target="_blank">
+            <img src="templates/mymate/images/Queensway-Carleton-Hospital-Logo.png" alt="Queensway Carleton Hospital" class="responsive resizeimg center" style="width:150px;height:150px;">
+        </a>
+        </p>
+        <p><a class="btn btn-secondary" href="https://www.qch.on.ca/" role="button" target="_blank">Visit Queensway Hospital &raquo;</a></p>
       </div>
     </div>
 
