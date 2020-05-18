@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.0" type="template" method="upgrade">
+    <name>mymate</name>
+    <creationDate>2020-05-10</creationDate>
+    <author>My Surgery Mate</author>
+    <authorEmail>mysurgerymate@gmail.com</authorEmail>
+    <authorUrl>https://mysurgerymate.joomla.com/</authorUrl>
+    <copyright>Copyright (C) 2020 mysurgerymate</copyright>
+	  <license>GNU/GPL</license>
+    <version>1.0</version>
+    <description><![CDATA[<p>mymate is a template exercise from scratch.<p>]]></description>
+    <files>
+        <filename>index.php</filename>
+		    <filename>index.html</filename>
+        <filename>templateDetails.xml</filename>
+		    <filename>favicon.ico</filename>
+		    <folder>images</folder>
+        <folder>css</folder>
+		    <folder>html</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>top</position>
+        <position>breadcrumbs</position>
+        <position>footer</position>
+        <position>left</position>
+        <position>right</position>
+        <position>footer</position>
+    </positions>
+	<config>
+    <fields name="params">
+      <fieldset name="general" label="General">
+        <field name="logo_text" type="text" label="Logo Text" description="Enter your logo text"></field>
+        <field name="copyright_text" type="text" label="Copyrightgo Text" description="Enter your copyright text"></field>
+      </fieldset>
+      
+    </fields>
+	</config>
+</extension >

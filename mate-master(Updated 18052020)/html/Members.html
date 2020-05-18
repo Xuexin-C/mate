@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="author" content="GNG5124 Group6">
+    <title>Members page</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+  <body>
+    <div id="membership_header">
+    </div>
+    <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3">Member's Portal</h1>
+                <p>
+                    Welcome to the healthcare revolution.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Patients...</h2>
+                    <p>
+                        We know that surgeries can be daunting and we’re here to help. My Surgery Mate is proud to offer a post surgery digital triage. To undergo triage simply click the surgery below that applies to you and answer the questionnaire honestly. A verified doctor will review your answers and reach out to you directly via the phone number or email address provided during registration.
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>My profile</h2>
+                    <p>
+                        Vist your profile to view and make any modifications to your medical and contact information.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Coming soon »</a></p>
+                </div>
+
+                <div class="col-md-3">
+                    <img src="../images/surgeries1.png" alt="home2" class="responsive">
+                </div>
+            </div>
+            <hr>
+        </div> <!-- /container -->
+    </main>
+    <div class="container" id="membership_footer">
+    </div>
+    <br />
+    <br />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#membership_header').load("navbar.html");
+            $('#membership_footer').load("footer.html");
+        });
+    </script>
+</body>
+</html>

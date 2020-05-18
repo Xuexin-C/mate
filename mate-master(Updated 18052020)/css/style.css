@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.resizeimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 4000px;
+    height: 350px;
+    object-fit:cover;
+}
+
+/* Custom styles for this template */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+/* Navbar Styling */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+
+/* Footer Styling */
+footer{
+    background-image: url('../images/ambulance.png');
+    background-color: #e7f5f5;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+/* Set the height of the footer links */
+footer div.footer-links{
+    height: 30px;
+}
+
+footer div{
+    text-align: center;
+    color: #666666;
+}
+
+footer div.copyright{
+    font-size: 14px;
+}
+
+/* Format the list container */
+footer ul{
+    list-style: none;
+    padding: 5px 0;
+}
+
+/* Format the list elements */
+footer ul li{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* Format the anchor elements within the lists */
+footer ul li a{
+    display: block;
+    padding: 5px;
+    border-radius: 100%;
+    color: #ffffff;
+    transition: all .1s ease-in-out;
+}
+
+/* Set dimension for social links*/
+footer ul li a i{
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+
+/* Social Links background color */
+footer ul li:first-child a{ background-color: #4267b2;}
+footer ul li:nth-child(2) a{ background-color: #1da1f2;}
+footer ul li:nth-child(3) a{ background-color: #0077b5;}
+footer ul li:last-child a{ background-color: #cb007c;}
+
+/* Social Links Hover Effects */
+footer ul li:first-child:hover a{ background-color: #3057a5; transform: scale(1.2); margin-bottom: 1px; color: #ffffff;}
+footer ul li:nth-child(2):hover a{ background-color: #0b91e4; transform: scale(1.2);margin-bottom: 1px; color: #ffffff;}
+footer ul li:nth-child(3):hover a{ background-color: #006aa2;transform: scale(1.2); margin-bottom: 1px; color: #ffffff;}
+footer ul li:last-child:hover a{ background-color: #a70066; transform: scale(1.2); margin-bottom: 1px; color: #ffffff;}
+
