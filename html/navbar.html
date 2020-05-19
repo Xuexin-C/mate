@@ -18,97 +18,7 @@
         }
     }
 </style>
-<style>
-    .dropbtn {
-        background-color: transparent;
-        color: white;
-        padding: 8px;
-        font-size: 16px;
-        border: none;
-        display: inline-block;
-    }
 
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-            .dropdown-content a:hover {
-                background-color: #ddd;
-            }
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    .dropdown:hover .dropbtn {
-        background-color: gray;
-    }
-
-    .affix {
-        top: 0;
-        width: 100%;
-        z-index: 9999 !important;
-    }
-</style>
-
-<div>
-    <script>
-        function goBaseUrl() {
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[1]", pathArray[1]);
-            var baseUrl = location.origin + '/' + pathArray[1].trim('/') + '/';
-            console.log("baseUrl:", baseUrl);
-            return baseUrl;
-        }
-        function goRegistration() {
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[1]", pathArray[1]);
-            var registrationUrl = goBaseUrl() + 'templates/mymate/html/Registration_signin.html';
-            console.log("registrationrUrl:", registrationUrl);
-            location.replace(registrationUrl);
-        }
-        function goMemebers() {
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[1]", pathArray[1]);
-            var memeberUrl = goBaseUrl() + 'templates/mymate/html/Members.html';
-            console.log("memeberUrl:", memeberUrl);
-            location.replace(memeberUrl);
-        }
-        function goInformation() {
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[1]", pathArray[1]);
-            var infoUrl = goBaseUrl() + 'templates/mymate/html/Surgery-Information.html';
-            console.log("infoUrl:", infoUrl);
-            location.replace(infoUrl);
-        }
-
-        function goHome() {
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[0]", pathArray[1]);
-            var myurl = goBaseUrl() + 'index.php';
-            console.log("myurl:", myurl);
-            location.replace(myurl);
-        }
-
-    </script>
-</div>
 <div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" data-spy="affix" data-offset-top="197">
         <div class="navbar-collapse">
@@ -118,7 +28,7 @@
                     <div class="dropdown-content" aria-labelledby="dropdown01">
                         <a class="dropdown-item" href="#" onclick="goInformation()">Information</a>
                         <a class="dropdown-item" href="#" onclick="goRegistration()">Registration</a>
-                        <a class="dropdown-item" href="#" onclick="goMemebers()">Memebers</a>
+                        <a class="dropdown-item" href="#" onclick="goMembers()">Members</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -128,7 +38,7 @@
                     <a class="nav-link" href="#" onclick="goRegistration()">Registration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="goMemebers()">Memebers</a>
+                    <a class="nav-link" href="#" onclick="goMembers()">Members</a>
                 </li>
 
             </ul>
