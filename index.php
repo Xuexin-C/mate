@@ -7,7 +7,6 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
 
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -26,9 +25,10 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/custom.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/custom.js"></script>
 	
   </head>
   <body>
@@ -75,6 +75,7 @@
 <div class="container">
   <?php include 'html/footer.html';?>
 </div>
-
+<br>
+<br>
 </body>
 </html>

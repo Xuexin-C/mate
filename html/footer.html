@@ -2,136 +2,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Social Links</title>
-    <script>
-        function goBaseUrl() {
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[1]", pathArray[1]);
-            var baseUrl = location.origin + '/' + pathArray[1].trim('/') + '/';
-            console.log("baseUrl:", baseUrl);
-            return baseUrl;
-        }
-
-            var pathArray = window.location.pathname.split('/');
-            console.log("pathArray[1]", pathArray[1]);
-            var imgUrl = goBaseUrl() + 'templates/mymate/images/ambulance.png';
-            console.log("imgUrl:", imgUrl);
-            //document.getElementById("myMate").style.backgroundImage = "url(" + imgUrl + ")";
    
-    </script>
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        /* Footer Styling */
-        .mymatefooter {
-            /*background-image: url('../images/ambulance.png');*/
-            background-color: #e7f5f5;
-            background-size: contain;
-            background-position: right;
-            background-repeat: no-repeat;
-            padding: 10px 0;
-        }
-
-        /* Set the height of the footer links */
-        .footer-links {
-            height: 10px;
-        }
-
-        .footerdiv {
-            text-align: center;
-            color: #666666;
-        }
-
-        .footercopyright {
-            text-align: center;
-            font-size: 14px;
-        }
-
-        /* Format the list container */
-        .footerul {
-            list-style: none;
-            padding: 5px 0;
-        }
-
-        /* Format the list elements */
-        .footerli {
-            display: inline-block;
-            padding-right: 5px;
-        }
-
-        /* Format the anchor elements within the lists */
-        .footera {
-            display: block;
-            padding: 5px;
-            border-radius: 100%;
-            color: #ffffff;
-            transition: all .1s ease-in-out;
-        }
-
-
-        /* Set dimension for social links*/
-        .footeri {
-            display: block;
-            width: 20px;
-            text-align: center;
-        }
-
-        /* Social Links background color */
-        .first-child a {
-            background-color: #4267b2;
-        }
-
-        .second-child a {
-            background-color: #1da1f2;
-        }
-
-        .third-child a {
-            background-color: #0077b5;
-        }
-
-        .last-child a {
-            background-color: #cb007c;
-        }
-
-        /* Social Links Hover Effects */
-        footer ul li:first-child:hover a {
-            background-color: #3057a5;
-            transform: scale(1.2);
-            margin-bottom: 1px;
-        }
-
-        footer ul li:nth-child(2):hover a {
-            background-color: #0b91e4;
-            transform: scale(1.2);
-            margin-bottom: 1px;
-        }
-
-        footer ul li:nth-child(3):hover a {
-            background-color: #006aa2;
-            transform: scale(1.2);
-            margin-bottom: 1px;
-        }
-
-        footer ul li:last-child:hover a {
-            background-color: #a70066;
-            transform: scale(1.2);
-            margin-bottom: 1px;
-        }
-</style>
-
     <main>
-        <footer id="myMate" class = "mymatefooter">
-            <div class=" footerdiv ">
-                <ul class="footerul">
+        <footer id="myMate">
+            <div class="footer-links">
+                <ul>
                     <!-- Add font awesome icons -->
-                    <li class="footerli first-child"><a class="footera" href="https://facebook.com" target="_blank" title="Facebook"><i class=" footeri fa fa-facebook"></i></a></li>
-                    <li class="footerli second-child"><a class="footera" href="https://twitter.com" target="_blank" title="Twitter"><i class="footeri fa fa-twitter"></i></a></li>
-                    <li class="footerli third-child"><a class="footera" href="https://twitter.com" target="_blank" title="linkedln"><i class="footeri fa fa-linkedin"></i></a></li>
-                    <li class="footerli last-child"><a class="footera" href="https://instagram.com" target="_blank" title="Instagram"><i class="footeri fa fa-instagram"></i></a></li>
+                    <li><a href="https://facebook.com" target="_blank" title=Facebook><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/mysurgerymate" target="_blank" title=Twitter><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://linkedln.com" target="_blank" title=linkedln"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://instagram.com" target="_blank" title=Instagram"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
             <div class="footercopyright">&copy; 2020. MysurgeryMate</div>
         </footer>
+        <script>
+            var imgUrl = goBaseUrl() + 'templates/mymate/images/ambulance.png';
+            console.log("imgUrl:", imgUrl);
+            document.getElementById("myMate").style.backgroundImage = "url(" + imgUrl + ")";
+        </script>
     </main>

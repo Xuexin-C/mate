@@ -9,26 +9,13 @@
 
     <title>Surgery information page</title>
 
-    <link href="/Joomla/templates/mymate/css/custom.css" rel="stylesheet">
-    <link href="/Joomla/templates/mymate/css/style.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#membership_header').load("navbar.html");
-            $('#membership_footer').load("footer.html");
-        });
-    </script>
+    <script src="../js/custom.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .responsive {
-            width: 100%;
-            max-width: 4000px;
-            height: 350px;
-            object-fit: cover;
-        }
-    </style>
 
 </head>
 
@@ -50,21 +37,30 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
+              <script>
+                  function goAppendectomy() {
+                    var pathArray = window.location.pathname.split('/');
+                    var baseUrl = location.origin + '/' + pathArray[1].trim('/');
+                      var appendectomyUrl = baseUrl + '/templates/mymate/html/appendectomy_home.html';
+                      console.log("appendectomyUrl:", appendectomyUrl);
+                      location.replace(appendectomyUrl);
+                }
+        </script>
             <h2>APPENDECTOMY</h2>
-		      	<img src="../images/surgeries_ap.jpg" alt="appendectomy" class="responsive">
+		      	<img src="../images/surgeries_ap.png" alt="appendectomy" class="responsive">
             <p>Appendectomy involves the open or laparoscopic removal of the appendix. This operation is performed to remove an infected or inflamed appendix, commonly referred to as appendicitis.
             </p>
-            <p><a class="btn btn-secondary" href="#" role="button">Coming Soon »</a></p>
+            <p><a class="btn btn-secondary" href="#" role="button" onclick="goAppendectomy()">View details »</a></p>
           </div>
           <div class="col-md-4">
             <h2>CHOLECYSTECTOMY</h2>
-			      <img src="../images/surgeries_ch.jpg" alt="cholecystectomy" class="responsive">
+			    <img src="../images/surgeries_ch.png" alt="cholecystectomy" class="responsive">
             <p>Cholecystectomy involves the open or laparoscopic removal of the gallbladder. This operation is performed due to the presence of gallstones and the health effects associated.</p>
             <p><a class="btn btn-secondary" href="#" role="button">Coming Soon »</a></p>
           </div>
           <div class="col-md-4">
             <h2>CORONARY ARTERY BYPASS</h2>
-			<img src="../images/surgeries_co.jpg" alt="CAB" class="responsive">
+			<img src="../images/surgeries_co.png" alt="CAB" class="responsive">
             <p>Coronary Artery Bypass surgery is performed to redirect blood flow from a blocked or obstructed artery. This operation is performed to improve blood flow directed to the heart.</p>
             <p><a class="btn btn-secondary" href="#" role="button">Coming Soon »</a></p>
           </div>
@@ -78,7 +74,7 @@
 
     <div class="container" id="membership_footer">
     </div>
-	<br />
+    <br />
     <br />
 </body>
 </html>
