@@ -35,3 +35,9 @@ function goHome() {
     console.log("myurl:", myurl);
     location.replace(myurl);
 }
+
+function goAppendectomy() {
+    var appendectomyUrl = goBaseUrl() + '/templates/mymate/html/appendectomy_home.html';
+    console.log("appendectomyUrl:", appendectomyUrl);
+    location.replace(appendectomyUrl);
+}
