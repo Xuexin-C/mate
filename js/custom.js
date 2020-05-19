@@ -37,7 +37,7 @@ function goHome() {
 }
 
 function goAppendectomy() {
-    var appendectomyUrl = goBaseUrl() + '/templates/mymate/html/appendectomy_home.html';
+    var appendectomyUrl = goBaseUrl() + 'templates/mymate/html/appendectomy_home.html';
     console.log("appendectomyUrl:", appendectomyUrl);
     location.replace(appendectomyUrl);
 }
