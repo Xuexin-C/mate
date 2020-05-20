@@ -17,7 +17,8 @@ Our goal is to serve in all timelines of a surgical operation, by:
 - and, monitoring patient symptoms for triage by medical personnel.
 
 LINK TO WEBSITE:
-https://mysurgerymate.joomla.com
+https://mysurgerymate2.joomla.com (PRIMARY - built with bootstrap)
+https://mysurgerymate.joomla.com (default template from Joomla)
 
 FUNCTIONS:
 - Navigation Bar (Navbar)
@@ -40,4 +41,12 @@ FUNCTIONS:
 	- We integrated on of our javascript function into one file to avoid repeating or calling the same script from different location path.
 	- This will also help with the client side dynamic behaviour. 	
 	- Coding Function: Function(){}
+- Pages
+	- Homepage (https://mysurgerymate2.joomla.com)
+	- Surgery Information page (https://mysurgerymate2.joomla.com//templates/mymate/html/Surgery-Information.html)
+		- Appendectomy Information page (https://mysurgerymate2.joomla.com//templates/mymate/html/appendectomy_home.html)
+	- Membership Registration/Sign-In page (https://mysurgerymate2.joomla.com//templates/mymate/html/Registration_signin.html)
+	- Member's Welcome page (https://mysurgerymate2.joomla.com//templates/mymate/html/Members.html)
 
+CLOSING NOTES:
+- The original inspiration for this idea was from a project that Nicholas worked on last year (see https://mysurgerymate.com/). This idea and website was based on a medical innovation design class and the work performed in that course will not overlap on work to be done during this course. The original website was simply a vehicle for an innovative medical idea (a proof a concept), it did not pertain to website design, ineternet technologies, revenue models, or ecommerce. The original website was designed with Squarespace and contains no handwritten html or css.
