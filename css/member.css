@@ -38,3 +38,19 @@
       width: 100%;
     }
   }
+  
+  .background {
+    background: rgba(54, 56, 66, 0.1);
+  }
+
+  p.line-h {
+    line-height: 1.5;
+  }
+
+  .monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+  p {
+    font-size: 18px;
+  }
