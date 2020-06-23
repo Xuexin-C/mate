@@ -5,9 +5,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../css/member.css" rel="stylesheet">
-
+<script  type="text/javascript"  src="../js/member.js"></script> 
 </head>
-<body>
+<body id="body">
   <div class="fullsize">
 		<img src="../images/member head.jpg"/>
 	</div>
@@ -17,8 +17,9 @@
   
     <div class="column middle">
       <div class="background">
-      <p class = "line-h monospace">
-      We know that surgeries can be daunting and we’re here to help. My Surgery Mate is proud to offer a post surgery digital triage. To undergo triage simply click the surgery below that applies to you and answer the questionnaire honestly. A verified doctor will review your answers and reach out to you directly via the phone number or email address provided during registration.</p>
+      <p id="font" class = "line-h monospace">
+      <span style="font:normal bold 24pt Brush Script MT, Brush Script Std, cursive">We</span> know that surgeries can be daunting and we’re here to help. My Surgery Mate is proud to offer a post surgery digital triage. To undergo triage simply click the surgery below that applies to you and answer the questionnaire honestly. A verified doctor will review your answers and reach out to you directly via the phone number or email address provided during registration.</p>
+    
     </div> 
     </div>
     
@@ -27,6 +28,10 @@
     </div>
   </div>
 
+  <input onclick="Changecolor('	#d9bf8c','#000000')" type="button" 
+  value="Change Background Color" /> 
+  <input onclick="Changecolor('#7587bd','#ffffff')" type="button" 
+  value="Return" /> 
 
 </body>
 </html>

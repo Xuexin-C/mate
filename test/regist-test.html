@@ -5,9 +5,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../css/member.css" rel="stylesheet">
-
+<script  type="text/javascript"  src="../js/member.js"></script> 
 </head>
-<body>
+<body id="body">
   <div class="fullsize">
 		<img src="../images/regist.jpg"/>
 	</div>
@@ -16,15 +16,19 @@
   
     <div class="column middle">
       <div class="background">
-      <p class = "line-h monospace">
-      We take surgeries to the next level. Whether you’re a patient recovering from surgery or a doctor checking in on their subject, you’re going to want to be a part of this experience. Welcome to the future of surgical care where personalized healthcare has never been so easy.
+      <p id="font" class = "line-h monospace">
+        <span style="font:normal bold 24pt Brush Script MT, Brush Script Std, cursive">We</span> take surgeries to the next level. Whether you’re a patient recovering from surgery or a doctor checking in on their subject, you’re going to want to be a part of this experience. Welcome to the future of surgical care where personalized healthcare has never been so easy.
     </div> 
     </div>
     
     <div class="column side">
-      <p><img style="width: 170px; height: 170px;"  src="../images/member.jpg" alt="member" class="responsive"></p>
+      <p><img style="width: 170px; height: 170px;"  src="../images/join.jpg" alt="join us" class="responsive"></p>
     </div>
   </div>
 
+  <input onclick="Changecolor('	#d9bf8c','#000000')" type="button" 
+  value="Change Background Color" /> 
+  <input onclick="Changecolor('#7587bd','#ffffff')" type="button" 
+  value="Return" /> 
 </body>
 </html>
